@@ -1401,7 +1401,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: Player.Nickname + " casts a transfiguration spell on " + target[0].Name + " body and their clothes change!"
+                        Text: Player.Nickname + " casts a transfiguration spell on " + target[0].Nickname + " body and their clothes change!"
                     }]
                 });
                 if ((target[0].Name == Player.Name) == false) {
@@ -2469,7 +2469,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: Player.Nickname + " casts a sealing spell and locks snap onto " + target[0].Name + " body."
+                        Text: Player.Nickname + " casts a sealing spell and locks snap onto " + target[0].Nickname + " body."
                     }]
                 });
                 if ((target[0].Name == Player.Name) == false) {
@@ -3184,7 +3184,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: Player.Nickname + " casts an annihilation spell and a beam of light erases the clothes on " + target[0].Name + " body."
+                        Text: Player.Nickname + " casts an annihilation spell and a beam of light erases the clothes on " + target[0].Nickname + " body."
                     }]
                 });
                 if ((target[0].Name == Player.Name) == false) {
@@ -4188,7 +4188,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: Player.Nickname + " casts a sealing spell and restraints affix themselves to " + target[0].Name + "'s body."
+                        Text: Player.Nickname + " casts a sealing spell and restraints affix themselves to " + target[0].Nickname + "'s body."
                     }]
                 });
                 if ((target[0].Name == Player.Name) == false) {
