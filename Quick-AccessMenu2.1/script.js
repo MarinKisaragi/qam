@@ -257,7 +257,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " is very angry."
+                        Text: "" + Player.Nickname + " is very angry."
                     }]
                 });
             } else if (content.includes("blink")) {
@@ -268,7 +268,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " blinks her eyes."
+                        Text: "" + Player.Nickname + " blinks her eyes."
                     }]
                 });
             } else if (content.includes("blush1")) {
@@ -278,7 +278,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " slightly blushes."
+                        Text: "" + Player.Nickname + " slightly blushes."
                     }]
                 });
             } else if (content.includes("blush2")) {
@@ -288,7 +288,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " blushes."
+                        Text: "" + Player.Nickname + " blushes."
                     }]
                 });
             } else if (content.includes("blush3")) {
@@ -298,7 +298,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " blushes a lot."
+                        Text: "" + Player.Nickname + " blushes a lot."
                     }]
                 });
             } else if (content.includes("blush4")) {
@@ -308,7 +308,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " very strongly blushes."
+                        Text: "" + Player.Nickname + " very strongly blushes."
                     }]
                 });
             } else if (content.includes("blush5")) {
@@ -318,7 +318,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " extremely blushes."
+                        Text: "" + Player.Nickname + " extremely blushes."
                     }]
                 });
             } else if (content.includes("chuckle")) {
@@ -328,7 +328,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " chuckles."
+                        Text: "" + Player.Nickname + " chuckles."
                     }]
                 });
             } else if (content.includes("closeeyes")) {
@@ -339,7 +339,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " closes her eyes."
+                        Text: "" + Player.Nickname + " closes her eyes."
                     }]
                 });
             } else if (content.includes("closemouth")) {
@@ -348,7 +348,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " closes her mouth."
+                        Text: "" + Player.Nickname + " closes her mouth."
                     }]
                 });
             } else if (content.includes("confused")) {
@@ -358,7 +358,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " is confused."
+                        Text: "" + Player.Nickname + " is confused."
                     }]
                 });
             } else if (content.includes("cuddle")) {
@@ -371,7 +371,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " cuddles with her friend."
+                        Text: "" + Player.Nickname + " cuddles with her friend."
                     }]
                 });
             } else if (content.includes("cry")) {
@@ -381,7 +381,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " cries."
+                        Text: "" + Player.Nickname + " cries."
                     }]
                 });
             } else if (content.includes("disoriented")) {
@@ -394,7 +394,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " feels disoriented."
+                        Text: "" + Player.Nickname + " feels disoriented."
                     }]
                 });
             } else if (content.includes("distressed")) {
@@ -407,7 +407,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " is distressd."
+                        Text: "" + Player.Nickname + " is distressd."
                     }]
                 });
             } else if (content.includes("droolreset")) {
@@ -416,7 +416,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " stops to drool."
+                        Text: "" + Player.Nickname + " stops to drool."
                     }]
                 });
             } else if (content.includes("droolsides")) {
@@ -426,7 +426,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " is drooling."
+                        Text: "" + Player.Nickname + " is drooling."
                     }]
                 });
             } else if (content.includes("frown")) {
@@ -436,7 +436,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " disagrees."
+                        Text: "" + Player.Nickname + " disagrees."
                     }]
                 });
             } else if (content.includes("gaginflate")) {
@@ -448,7 +448,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " is excited by the inflation of her gag."
+                        Text: "" + Player.Nickname + " is excited by the inflation of her gag."
                     }]
                 });
             } else if (content.includes("giggle")) {
@@ -458,7 +458,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " giggles."
+                        Text: "" + Player.Nickname + " giggles."
                     }]
                 });
             } else if (content.includes("glare")) {
@@ -470,7 +470,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " looks at everybody with angry eyes."
+                        Text: "" + Player.Nickname + " looks at everybody with angry eyes."
                     }]
                 });
             } else if (content.includes("grin")) {
@@ -482,7 +482,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " grins."
+                        Text: "" + Player.Nickname + " grins."
                     }]
                 });
             } else if (content.includes("happy")) {
@@ -492,7 +492,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " is happy."
+                        Text: "" + Player.Nickname + " is happy."
                     }]
                 });
             } else if (content.includes("iced")) {
@@ -504,7 +504,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " feels the effect of something very cold on her skin."
+                        Text: "" + Player.Nickname + " feels the effect of something very cold on her skin."
                     }]
                 });
             } else if (content.includes("kiss1")) {
@@ -514,7 +514,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " gives simple kisses to her friend."
+                        Text: "" + Player.Nickname + " gives simple kisses to her friend."
                     }]
                 });
             } else if (content.includes("kiss2")) {
@@ -527,7 +527,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " kisses her friend on the lips."
+                        Text: "" + Player.Nickname + " kisses her friend on the lips."
                     }]
                 });
             } else if (content.includes("kiss3")) {
@@ -540,7 +540,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " gives a long kiss to her friend."
+                        Text: "" + Player.Nickname + " gives a long kiss to her friend."
                     }]
                 });
             } else if (content.includes("laugh")) {
@@ -550,7 +550,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " laughs."
+                        Text: "" + Player.Nickname + " laughs."
                     }]
                 });
             } else if (content.includes("lick")) {
@@ -561,7 +561,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " licks sensitive body zones of her friend."
+                        Text: "" + Player.Nickname + " licks sensitive body zones of her friend."
                     }]
                 });
             } else if (content.includes("lipbite")) {
@@ -571,7 +571,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " bites her lips."
+                        Text: "" + Player.Nickname + " bites her lips."
                     }]
                 });
             } else if (content.includes("narroweyes")) {
@@ -582,7 +582,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " narrows her eyes."
+                        Text: "" + Player.Nickname + " narrows her eyes."
                     }]
                 });
             } else if (content.includes("neutral")) {
@@ -591,7 +591,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " goes back to a neutral facial expression."
+                        Text: "" + Player.Nickname + " goes back to a neutral facial expression."
                     }]
                 });
             } else if (content.includes("openeyes")) {
@@ -600,7 +600,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " opens her eyes."
+                        Text: "" + Player.Nickname + " opens her eyes."
                     }]
                 });
             } else if (content.includes("openmouth")) {
@@ -610,7 +610,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " opens her mouth."
+                        Text: "" + Player.Nickname + " opens her mouth."
                     }]
                 });
             } else if (content.includes("pout")) {
@@ -623,7 +623,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " pouts."
+                        Text: "" + Player.Nickname + " pouts."
                     }]
                 });
             } else if (content.includes("raisebrows")) {
@@ -633,7 +633,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " raises her brows."
+                        Text: "" + Player.Nickname + " raises her brows."
                     }]
                 });
             } else if (content.includes("resetbrows")) {
@@ -643,7 +643,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " feels reassured."
+                        Text: "" + Player.Nickname + " feels reassured."
                     }]
                 });
             } else if (content.includes("sad")) {
@@ -656,7 +656,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " is sad."
+                        Text: "" + Player.Nickname + " is sad."
                     }]
                 });
             } else if (content.includes("smile")) {
@@ -666,7 +666,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " smiles."
+                        Text: "" + Player.Nickname + " smiles."
                     }]
                 });
             } else if (content.includes("smirk")) {
@@ -676,7 +676,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " smirks."
+                        Text: "" + Player.Nickname + " smirks."
                     }]
                 });
             } else if (content.includes("spanked")) {
@@ -688,7 +688,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " feels the effect of the spanking on her skin."
+                        Text: "" + Player.Nickname + " feels the effect of the spanking on her skin."
                     }]
                 });
             } else if (content.includes("wink")) {
@@ -698,7 +698,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " winks."
+                        Text: "" + Player.Nickname + " winks."
                     }]
                 });
             } else if (content.includes("worried")) {
@@ -710,7 +710,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "" + Player.Name + " is worried."
+                        Text: "" + Player.Nickname + " is worried."
                     }]
                 });
             } else if (content.endsWith("/anim2")) {
@@ -1401,7 +1401,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "Magical lasers put random clothes on " + target[0].Name + " body."
+                        Text: Player.Nickname + " casts a transfiguration spell on " + target[0].Name + " body and their clothes change!"
                     }]
                 });
                 if ((target[0].Name == Player.Name) == false) {
@@ -2469,7 +2469,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "Magical lasers make appear locks on " + target[0].Name + " body."
+                        Text: Player.Nickname + " casts a sealing spell and locks snap onto " + target[0].Name + " body."
                     }]
                 });
                 if ((target[0].Name == Player.Name) == false) {
@@ -3184,7 +3184,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "Magical lasers make disappear the clothes on " + target[0].Name + " body."
+                        Text: Player.Nickname + " casts an annihilation spell and a beam of light erases the clothes on " + target[0].Name + " body."
                     }]
                 });
                 if ((target[0].Name == Player.Name) == false) {
@@ -4050,7 +4050,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "Magical lasers apply random clothes and bindings on " + target[0].Name + " body."
+                        Text: Player.Nickname + " casts a transfiguration spell and random clothes and bindings snap onto " + target[0].Nickname + "!"
                     }]
                 });
                 if ((target[0].Name == Player.Name) == false) {
@@ -4080,7 +4080,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "Magical lasers make disappear the bindings on " + target[0].Name + " body."
+                        Text: Player.Nickname + " casts an annihilation spell and a beam of light obliterates the bindings on " + target[0].Nickname + "'s body."
                     }]
                 });
                 if ((target[0].Name == Player.Name) == false) {
@@ -4188,7 +4188,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "Magical lasers apply random restraints on " + target[0].Name + " body."
+                        Text: Player.Nickname + " casts a sealing spell and restraints affix themselves to " + target[0].Name + "'s body."
                     }]
                 });
                 if ((target[0].Name == Player.Name) == false) {
@@ -4432,7 +4432,7 @@ async function NEWmenu() {
                             Type: "Action",
                             Dictionary: [{
                                 Tag: "Beep",
-                                Text: "Magical lasers make disappear the futuristic crate in which " + Player.Name + " was prisoner."
+                                Text: Player.Nickname + " casts an annihilation spell and the futuristic crate in which " + Player.Nickname + " was prisoner splits apart."
                             }]
                         });
                     }
@@ -4898,7 +4898,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "Magical lasers make disappear all bindings and toys on " + target[0].Name + " body."
+                        Text: Player.Nickname + " casts an annihilation spell and with a flash, all bindings and toys on " + target[0].Nickname + "'s body disappear."
                     }]
                 });
                 if ((target[0].Name == Player.Name) == false) {
@@ -4925,7 +4925,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "Magical lasers put " + target[0].Name + " in random underwear."
+                        Text: Player.Nickname + " casts a transfiguration spell and " + target[0].Nickname + " finds themself in random underwear."
                     }]
                 });
                 if ((target[0].Name == Player.Name) == false) {
@@ -4955,7 +4955,7 @@ async function NEWmenu() {
                     Type: "Action",
                     Dictionary: [{
                         Tag: "Beep",
-                        Text: "Magical lasers make disappear locks on " + target[0].Name + " body."
+                        Text: Player.Nickname + " casts an annihilation spell and all locks on " + target[0].Nickname + "'s body clatter to the floor."
                     }]
                 });
                 if ((target[0].Name == Player.Name) == false) {
