@@ -18,7 +18,7 @@ setTimeout(
 			let n = document.createElement("script");
 			n.setAttribute("language", "JavaScript");
 			n.setAttribute("crossorigin", "anonymous");
-			n.setAttribute("src", "https://tetris245.github.io/script.js?_=" + Date.now());
+			n.setAttribute("src", "https://marinkisaragi.github.io/qam/Quick-AccessMenu2.1/script.js?_=" + Date.now());
 			n.onload = () => n.remove();
 			document.head.appendChild(n);
 		}
